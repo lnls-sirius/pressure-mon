@@ -1,5 +1,5 @@
 /** URL used for routing */
-const BASE_URL = '/OPI/VACS';
+const BASE_URL = '/VACS';
 const CCG_URL = BASE_URL + '/CCG';
 export { BASE_URL, CCG_URL };
 

@@ -11,7 +11,7 @@ import fe from '../static/FE-CCG.json';
 import tb from '../static/TB-CCG.json';
 import ts from '../static/TS-CCG.json';
 
-import { SI, BO, LI, BASE_URL } from '../utils/consts';
+import { SI, BO, LI } from '../utils/consts';
 
 const STATE = {
     INITIAL: 0, BO: 1, SI: 2, TB: 3, TS: 4, ALL: 5, TB_TS: 6,
@@ -95,7 +95,7 @@ class CCG extends React.Component {
                     <Grid item style={{ 'margin': '4px' }}>
                         <Button
                             component={Link}
-                            to={BASE_URL}
+                            to="/"
                             color="secondary"
                             variant='contained'>Back</Button>
                     </Grid>
@@ -194,7 +194,7 @@ class CCG extends React.Component {
                     <Grid item md={2} lg={2}>
                         <Grid container justify='center'>
                             <Grid item md={5} lg={5}>
-                                <PressureBar customTooltipCallback={this.customTooltipCallback} pvs={tb} title='TB - Pressure'  rows={2} />                            
+                                <PressureBar customTooltipCallback={this.customTooltipCallback} pvs={tb} title='TB - Pressure'  rows={2} />
                             </Grid>
                             <Grid item md={7} lg={7}>
                                 <PressureBar customTooltipCallback={this.customTooltipCallback} pvs={ts} title='TS - Pressure'  rows={2} />

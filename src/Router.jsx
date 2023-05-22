@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Alert, AlertTitle } from '@material-ui/lab';
 import { Box } from '@material-ui/core';
 
-import { BASE_URL, CCG_URL } from './utils/consts';
+import { CCG_URL } from './utils/consts';
 import Main from './Main';
 import CCG from './components/CCG';
 
@@ -34,8 +34,8 @@ export default props => (
     <BrowserRouter >
         <Switch>
             <Route path={CCG_URL} component={CCG} />
-            <Route exact path={BASE_URL} component={Main} />
-            <Route path="*"><NoMatch /></Route>
+            <Route exact path="*" component={Main} />
+            {/* <Route path="*"><NoMatch /></Route> */}
         </Switch>
     </BrowserRouter>
 );

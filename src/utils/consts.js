@@ -1,7 +1,6 @@
 /** URL used for routing */
-const BASE_URL = '/VACS';
-const CCG_URL = BASE_URL + '/CCG';
-export { BASE_URL, CCG_URL };
+const CCG_URL = '/CCG';
+export { CCG_URL };
 
 const LI = { hihi: 5e-7, high: 1e-7, step: 1e-7, topLim: 1e-6, botLim: 5e-12 };
 const BO = { hihi: 5e-7, high: 1e-7, step: 1e-7, topLim: 1e-6, botLim: 5e-12 };

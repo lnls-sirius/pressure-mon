@@ -1,0 +1,21 @@
+
+.PressureBar {
+    resize: horizontal;
+    overflow: auto;
+}
+
+.PressureBar .Title{
+    position: relative;
+    font-size: 12pt;
+}
+
+.GraphContainer2 {
+    height: 40vh; 
+    padding-top: 5px;
+}
+
+.GraphContainer1 {
+    height: 80vh; 
+    padding-left: 25px;
+    padding-right: 50px;
+} 

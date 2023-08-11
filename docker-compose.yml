@@ -8,3 +8,11 @@ services:
       context: .
     ports:
       - 80:80
+
+  vacs-latest:
+    container_name: 'pressure-mon'
+    image: 'ghcr.io/lnls-sirius/pressure-mon'
+    build:
+      context: .
+    ports:
+      - 80:80

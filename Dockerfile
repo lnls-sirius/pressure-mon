@@ -1,4 +1,4 @@
-FROM node:19-alpine3.16 AS builder
+FROM node:13.10.1-stretch AS builder
 
 # General information about the code
 LABEL maintainer="SwC <swc@lnls.br>"

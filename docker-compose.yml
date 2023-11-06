@@ -3,7 +3,9 @@ version: '3.8'
 services:
   vacs:
     container_name: 'pressure-mon'
-    image: 'ghcr.io/lnls-sirius/pressure-mon:1.0.3'
+    image: 'ghcr.io/lnls-sirius/pressure-mon:1.0.4'
+    volumes:
+      - "./pressure-mon:rw"
     build:
       context: .
     ports:
@@ -12,6 +14,8 @@ services:
   vacs-latest:
     container_name: 'pressure-mon'
     image: 'ghcr.io/lnls-sirius/pressure-mon'
+    volumes:
+      - "./pressure-mon:rw"
     build:
       context: .
     ports:

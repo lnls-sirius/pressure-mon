@@ -1,4 +1,4 @@
-FROM node:13.8.0-stretch AS builder
+FROM node:12.14.1-stretch AS builder
 
 # General information about the code
 LABEL maintainer="SwC <swc@lnls.br>"

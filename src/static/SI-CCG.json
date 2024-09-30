@@ -45,6 +45,8 @@
     "SI-14C1:VA-CCG-BG:Pressure-Mon",
     "SI-14C3:VA-CCG-BG:Pressure-Mon",
     "SI-14SB:VA-CCG-BG:Pressure-Mon",
+    "SI-14SB:VA-CCG-ED:Pressure-Mon",
+    "SI-14SB:VA-CCG-IVU1:Pressure-Mon",
     "SI-15C1:VA-CCG-BG:Pressure-Mon",
     "SI-15C3:VA-CCG-BG:Pressure-Mon",
     "SI-15SP:VA-CCG-BG:Pressure-Mon",
